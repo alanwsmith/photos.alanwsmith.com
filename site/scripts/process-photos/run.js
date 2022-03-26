@@ -10,6 +10,9 @@ const configs = require('./configs.json')
 // Puts all the different copies of the image
 // undreneath it for the different sizes
 
+// TODO: Clear old copies of an image for example
+// if the crop of the image has changed.
+
 //////////////////////////////////////////////////////////////
 
 async function getMetadata(file_path) {
@@ -85,22 +88,39 @@ function get_file_list(source_root) {
 //////////////////////////////////////////////////////////////
 
 async function make_file(file_details, size) {
-  let generate_image = false
-  if (fs.existsSync(size.dest_path) === false) {
-    console.log(`Making: ${size.dest_path}`)
-    generate_image = true
+  await sharp(file_details.full_path)
+    .resize(size.width, size.height)
+    .toFile(size.dest_path)
+}
+
+//////////////////////////////////////////////////////////////
+
+function set_dest_base_path(file_details) {
+  file_details.dest_base_path = path.join(file_details.dest_dir, 'base.jpg')
+  return file_details
+}
+
+//////////////////////////////////////////////////////////////
+
+function set_generate_files(file_details) {
+  file_details.generate_files = false
+  if (fs.existsSync(file_details.dest_base_path) === false) {
+    file_details.generate_files = true
   } else if (
-    fs.statSync(size.dest_path).mtime <
+    fs.statSync(file_details.dest_base_path).mtime <
     fs.statSync(file_details.full_path).mtime
   ) {
-    console.log(`Updating: ${size.dest_path}`)
-    generate_image = true
+    file_details.generate_files = true
   }
-  if (generate_image === true) {
-    await sharp(file_details.full_path)
-      .resize(size.width, size.height)
-      .toFile(size.dest_path)
-  }
+  return file_details
+}
+
+//////////////////////////////////////////////////////////////
+
+async function make_base_file(base_width, file_details) {
+  await sharp(file_details.full_path)
+    .resize(base_width, null)
+    .toFile(file_details.dest_base_path)
 }
 
 //////////////////////////////////////////////////////////////
@@ -112,12 +132,19 @@ async function runIt() {
 
   await file_list.forEach(async (file_details) => {
     file_details = set_dest_dir(config.dest_root, file_details)
-    file_details = await get_original_dimensions(file_details)
-    file_details = set_dest_sizes(config.sizes, file_details)
-    make_directory(file_details)
-    await file_details.sizes.forEach(async (size) => {
-      await make_file(file_details, size)
-    })
+    file_details = set_dest_base_path(file_details)
+    file_details = set_generate_files(file_details)
+
+    if (file_details.generate_files === true) {
+      console.log(file_details)
+      file_details = await get_original_dimensions(file_details)
+      file_details = set_dest_sizes(config.sizes, file_details)
+      make_directory(file_details)
+      await make_base_file(config.base_width, file_details)
+      await file_details.sizes.forEach(async (size) => {
+        await make_file(file_details, size)
+      })
+    }
   })
 
   console.log('--- Finished making images ---')
