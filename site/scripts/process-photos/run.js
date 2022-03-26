@@ -75,6 +75,10 @@ function set_dest_sizes(sizes, file_details) {
         file_details.dest_dir,
         `${size_details.width}x${size_details.height}.jpg`
       )
+      size_details.url_dest_path = path.join(
+        file_details.url_dest_dir,
+        `${size_details.width}x${size_details.height}.jpg`
+      )
       file_details.sizes.push(size_details)
     }
   }
