@@ -43,6 +43,12 @@ function set_dest_dir(dest_root, file_details) {
     ...file_details.sub_dirs,
     file_details.name_only
   )
+  file_details.url_dest_dir = path.join(
+    '/',
+    ...file_details.url_root_sub_dirs,
+    ...file_details.sub_dirs,
+    file_details.name_only
+  )
   return file_details
 }
 
@@ -140,19 +146,25 @@ async function runIt() {
   )
 
   await file_list.forEach(async (file_details) => {
+    file_details.url_root_sub_dirs = config.dest_sub_dirs
     file_details = set_dest_dir(local_dest_root, file_details)
     file_details = set_dest_base_path(file_details)
     file_details = set_generate_files(file_details)
-
     if (file_details.generate_files === true) {
-      console.log(file_details)
+      const json_details = { sizes: [] }
       file_details = await get_original_dimensions(file_details)
       file_details = set_dest_sizes(config.sizes, file_details)
-      make_directory(file_details)
-      await make_base_file(config.base_width, file_details)
-      await file_details.sizes.forEach(async (size) => {
-        await make_file(file_details, size)
-      })
+      console.log(file_details)
+
+      // make_directory(file_details)
+      // await make_base_file(config.base_width, file_details)
+      // console.log(file_details)
+      // for (const size of file_details.sizes) {
+      //   await make_file(file_details, size)
+      //   console.log('here')
+      //   json_details.sizes.push(size)
+      // }
+      // console.log(json_details)
     }
   })
 
