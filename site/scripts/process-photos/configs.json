@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "source_root": "/Users/alan/Photos/raw",
+    "dest_root": "/Users/alan/workshop/photos.alanwsmith.com/site/public/collection-images",
+    "sizes": [
+      250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2500, 3000, 3500, 4000
+    ]
+  }
+}
