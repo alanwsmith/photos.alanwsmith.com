@@ -13,6 +13,10 @@ const configs = require('./configs.json')
 // TODO: Clear old copies of an image for example
 // if the crop of the image has changed.
 
+// Right now if a single image gets delted
+// it doesn't get picked up for re-generatation
+// shouldn't be a real problem.
+
 //////////////////////////////////////////////////////////////
 
 async function getMetadata(file_path) {
@@ -130,8 +134,13 @@ async function runIt() {
 
   const file_list = get_file_list(config.source_root)
 
+  const local_dest_root = path.join(
+    config.local_site_root,
+    ...config.dest_sub_dirs
+  )
+
   await file_list.forEach(async (file_details) => {
-    file_details = set_dest_dir(config.dest_root, file_details)
+    file_details = set_dest_dir(local_dest_root, file_details)
     file_details = set_dest_base_path(file_details)
     file_details = set_generate_files(file_details)
 
