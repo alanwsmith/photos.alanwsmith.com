@@ -5,6 +5,7 @@ const path = require('path')
 const sharp = require('sharp')
 const { listDir } = require('./listDir')
 const configs = require('./configs.json')
+const ExifReader = require('exifreader')
 
 // Makes an output dir for every image
 // Puts all the different copies of the image
@@ -19,12 +20,11 @@ const configs = require('./configs.json')
 
 //////////////////////////////////////////////////////////////
 
-async function getMetadata(file_path) {
-  const metadata = await sharp(file_path).metadata()
-  return metadata
-}
-
-const output_json = []
+// async function getMetadata(file_path) {
+//   const metadata = await sharp(file_path).metadata()
+//   return metadata
+// }
+// const output_json = []
 
 //////////////////////////////////////////////////////////////
 
@@ -90,11 +90,7 @@ function set_dest_sizes(sizes, file_details) {
 function get_file_list(source_root) {
   const file_list = []
   for (const file_details of listDir(config.source_root)) {
-    if (
-      file_details.sub_dirs.find((element) => element === '_web') !== undefined
-    ) {
-      file_list.push(file_details)
-    }
+    file_list.push(file_details)
   }
   return file_list
 }
@@ -116,6 +112,13 @@ function set_dest_base_path(file_details) {
 
 //////////////////////////////////////////////////////////////
 
+function set_dest_json_path(file_details) {
+  file_details.dest_json_path = path.join(file_details.dest_dir, 'details.json')
+  return file_details
+}
+
+//////////////////////////////////////////////////////////////
+
 function set_generate_files(file_details) {
   file_details.generate_files = false
   if (fs.existsSync(file_details.dest_base_path) === false) {
@@ -131,10 +134,24 @@ function set_generate_files(file_details) {
 
 //////////////////////////////////////////////////////////////
 
+async function get_description(file_details) {
+  const tags = await ExifReader.load(file_details.full_path)
+  return tags.description.description
+}
+
+//////////////////////////////////////////////////////////////
+
 async function make_base_file(base_width, file_details) {
   await sharp(file_details.full_path)
     .resize(base_width, null)
     .toFile(file_details.dest_base_path)
+}
+
+//////////////////////////////////////////////////////////////
+
+function write_json_file(dest_json_path, json_details) {
+  console.log(dest_json_path)
+  fs.writeFileSync(dest_json_path, JSON.stringify(json_details))
 }
 
 //////////////////////////////////////////////////////////////
@@ -149,28 +166,28 @@ async function runIt() {
     ...config.dest_sub_dirs
   )
 
-  await file_list.forEach(async (file_details) => {
+  for (let file_details of file_list) {
     file_details.url_root_sub_dirs = config.dest_sub_dirs
     file_details = set_dest_dir(local_dest_root, file_details)
     file_details = set_dest_base_path(file_details)
+    file_details = set_dest_json_path(file_details)
     file_details = set_generate_files(file_details)
     if (file_details.generate_files === true) {
-      const json_details = { sizes: [] }
+      let json_details = { sizes: [] }
+      json_details.description = await get_description(file_details)
       file_details = await get_original_dimensions(file_details)
       file_details = set_dest_sizes(config.sizes, file_details)
-      console.log(file_details)
-
-      // make_directory(file_details)
-      // await make_base_file(config.base_width, file_details)
-      // console.log(file_details)
-      // for (const size of file_details.sizes) {
-      //   await make_file(file_details, size)
-      //   console.log('here')
-      //   json_details.sizes.push(size)
-      // }
-      // console.log(json_details)
+      make_directory(file_details)
+      await make_base_file(config.base_width, file_details)
+      for (const size of file_details.sizes) {
+        await make_file(file_details, size)
+        delete size.dest_path
+        json_details.sizes.push(size)
+      }
+      console.log(json_details)
+      write_json_file(file_details.dest_json_path, json_details)
     }
-  })
+  }
 
   console.log('--- Finished making images ---')
 }

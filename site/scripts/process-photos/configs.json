@@ -1,6 +1,6 @@
 {
   "dev": {
-    "source_root": "/Users/alan/Photos/raw",
+    "source_root": "/Users/alan/Photos/web-exports",
     "local_site_root": "/Users/alan/workshop/photos.alanwsmith.com/site/public",
     "dest_sub_dirs": ["collection-images"],
     "base_width": 1000,
