@@ -20,14 +20,6 @@ const ExifReader = require('exifreader')
 
 //////////////////////////////////////////////////////////////
 
-// async function getMetadata(file_path) {
-//   const metadata = await sharp(file_path).metadata()
-//   return metadata
-// }
-// const output_json = []
-
-//////////////////////////////////////////////////////////////
-
 function make_directory(file_details) {
   if (fs.existsSync(file_details.dest_dir) === false) {
     console.log(`- Making destination dir: ${file_details.dest_dir}`)
