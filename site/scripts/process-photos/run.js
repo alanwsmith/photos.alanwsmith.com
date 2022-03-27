@@ -179,7 +179,9 @@ async function runIt() {
         delete size.dest_path
         json_details.sizes.push(size)
       }
-      // console.log(json_details)
+      json_details.image_ratio = file_details.image_ratio
+      // console.log(file_details)
+      console.log(json_details)
       write_json_file(file_details.dest_json_path, json_details)
     }
   }
