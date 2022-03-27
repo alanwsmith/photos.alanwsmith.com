@@ -104,8 +104,11 @@ function set_dest_base_path(file_details) {
 
 //////////////////////////////////////////////////////////////
 
-function set_dest_json_path(file_details) {
-  file_details.dest_json_path = path.join(file_details.dest_dir, 'details.json')
+function set_dest_json_path(file_details, json_output_dir) {
+  file_details.dest_json_path = path.join(
+    json_output_dir,
+    `${file_details.name_only_lower_case}.json`
+  )
   return file_details
 }
 
@@ -142,7 +145,7 @@ async function make_base_file(base_width, file_details) {
 //////////////////////////////////////////////////////////////
 
 function write_json_file(dest_json_path, json_details) {
-  console.log(dest_json_path)
+  // console.log(dest_json_path)
   fs.writeFileSync(dest_json_path, JSON.stringify(json_details))
 }
 
@@ -162,7 +165,7 @@ async function runIt() {
     file_details.url_root_sub_dirs = config.dest_sub_dirs
     file_details = set_dest_dir(local_dest_root, file_details)
     file_details = set_dest_base_path(file_details)
-    file_details = set_dest_json_path(file_details)
+    file_details = set_dest_json_path(file_details, config.json_output_dir)
     file_details = set_generate_files(file_details)
     if (file_details.generate_files === true) {
       let json_details = { sizes: [] }
@@ -176,7 +179,7 @@ async function runIt() {
         delete size.dest_path
         json_details.sizes.push(size)
       }
-      console.log(json_details)
+      // console.log(json_details)
       write_json_file(file_details.dest_json_path, json_details)
     }
   }
