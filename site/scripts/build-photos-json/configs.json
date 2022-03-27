@@ -1,5 +1,6 @@
 {
   "dev": {
-    "local_source_root": "/Users/alan/workshop/photos.alanwsmith.com/site/public/collection-images"
+    "local_source_root": "/Users/alan/workshop/photos.alanwsmith.com/site/photo-jsons",
+    "json_storage_path": "/Users/alan/workshop/photos.alanwsmith.com/site/photos.json"
   }
 }
