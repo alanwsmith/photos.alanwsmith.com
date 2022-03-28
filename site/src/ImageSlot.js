@@ -19,53 +19,53 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
 
   // Adjust the size down based on how big the window is:
   if (dimensions.viewport.width > 1400) {
-    dimensions.viewport.width = dimensions.viewport.width - 200
-    dimensions.padding.sides = 30
-    dimensions.padding.top = 30
-    dimensions.padding.bottom = 50
-    dimensions.border.sides = 30
-    dimensions.border.top = 30
-    dimensions.border.bottom = 50
+    dimensions.viewport.width = dimensions.viewport.width - 280
+    dimensions.padding.sides = 9
+    dimensions.padding.top = 9
+    dimensions.padding.bottom = 9
+    dimensions.border.sides = 100
+    dimensions.border.top = 100
+    dimensions.border.bottom = 130
   } else if (dimensions.viewport.width > 1000) {
-    dimensions.viewport.width = dimensions.viewport.width - 240
-    dimensions.padding.sides = 4
-    dimensions.padding.top = 4
-    dimensions.padding.bottom = 4
+    dimensions.viewport.width = dimensions.viewport.width - 252
+    dimensions.padding.sides = 8
+    dimensions.padding.top = 8
+    dimensions.padding.bottom = 8
     dimensions.border.sides = 90
     dimensions.border.top = 90
-    dimensions.border.bottom = 110
-  } else if (dimensions.viewport.width > 800) {
-    dimensions.viewport.width = dimensions.viewport.width - 210
-    dimensions.padding.sides = 4
-    dimensions.padding.top = 4
-    dimensions.padding.bottom = 4
-    dimensions.border.sides = 72
-    dimensions.border.top = 72
+    dimensions.border.bottom = 118
+  } else if (dimensions.viewport.width > 850) {
+    dimensions.viewport.width = dimensions.viewport.width - 178
+    dimensions.padding.sides = 6
+    dimensions.padding.top = 6
+    dimensions.padding.bottom = 6
+    dimensions.border.sides = 68
+    dimensions.border.top = 68
     dimensions.border.bottom = 98
-  } else if (dimensions.viewport.width > 660) {
-    dimensions.viewport.width = dimensions.viewport.width - 160
+  } else if (dimensions.viewport.width > 740) {
+    dimensions.viewport.width = dimensions.viewport.width - 90
     dimensions.padding.sides = 4
     dimensions.padding.top = 4
     dimensions.padding.bottom = 4
-    dimensions.border.sides = 50
-    dimensions.border.top = 50
+    dimensions.border.sides = 26
+    dimensions.border.top = 26
     dimensions.border.bottom = 70
-  } else if (dimensions.viewport.width > 575) {
-    dimensions.viewport.width = dimensions.viewport.width - 140
+  } else if (dimensions.viewport.width > 580) {
+    dimensions.viewport.width = dimensions.viewport.width - 80
     dimensions.padding.sides = 4
     dimensions.padding.top = 4
     dimensions.padding.bottom = 4
-    dimensions.border.sides = 44
-    dimensions.border.top = 44
+    dimensions.border.sides = 20
+    dimensions.border.top = 20
     dimensions.border.bottom = 60
   } else {
     dimensions.viewport.width = dimensions.viewport.width - 70
-    dimensions.padding.sides = 2
-    dimensions.padding.top = 2
-    dimensions.padding.bottom = 2
-    dimensions.border.sides = 18
-    dimensions.border.top = 18
-    dimensions.border.bottom = 48
+    dimensions.padding.sides = 3
+    dimensions.padding.top = 3
+    dimensions.padding.bottom = 3
+    dimensions.border.sides = 14
+    dimensions.border.top = 14
+    dimensions.border.bottom = 46
   }
 
   // reduce viewport height a little for padding if it's what hits

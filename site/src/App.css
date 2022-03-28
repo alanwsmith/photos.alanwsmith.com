@@ -3,36 +3,9 @@
 }
 
 .p3 {
-  background-color: blue;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-}
-
-.p2 {
-  background-color: blue;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-.p2 img {
-  vertical-align: bottom;
-  background-color: red;
-}
-
-.photo {
-  margin-top: 20px;
-  margin-bottom: 140px;
-}
-
-.photo img {
-  vertical-align: bottom;
-  background-color: black;
-  padding: 4px;
-  border-left: 80px solid white;
-  border-right: 80px solid white;
-  border-top: 80px solid white;
-  border-bottom: 120px solid white;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 800px) {
