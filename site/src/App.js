@@ -12,6 +12,7 @@ function App() {
     const startIndex = items.length
     const endIndex = startIndex + itemsToGet
     setItems(items.concat(photos.list.slice(startIndex, endIndex)))
+    console.dir(photos.list)
     if (items.length >= photos.list.length) {
       setHasMore(false)
     }

@@ -15,23 +15,6 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
     spacing: 0,
   }
 
-  const settings = [
-    {
-      padding: { top: 0, sides: 0, bottom: 0 },
-      border: { top: 0, sides: 0, bottom: 0 },
-    },
-    {
-      padding: { top: 2, sides: 2, bottom: 2 },
-      border: { top: 10, sides: 10, bottom: 10 },
-    },
-    {
-      padding: { top: 20, sides: 20, bottom: 20 },
-      border: { top: 20, sides: 20, bottom: 20 },
-    },
-  ]
-
-  let output_setting = 0
-
   dimensions.viewport.ratio =
     dimensions.viewport.height / dimensions.viewport.width
 
@@ -145,24 +128,6 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
     )
   }
 
-  // // adjust height down if necessary
-  // if (dimensions.output.height > dimensions.viewport.height - 40) {
-  //   dimensions.output.height = dimensions.output.height - 40
-  //   dimensions.output.width = Math.floor(
-  //     (dimensions.image.width / dimensions.image.height) *
-  //       dimensions.output.height
-  //   )
-  // }
-
-  // dimensions.minDimensions = {
-  //   width: Math.min(dimensions.viewport.width - 40, dimensions.output.width),
-  //   height: Math.min(dimensions.viewport.height - 40, dimensions.output.height),
-  // }
-  // dimensions.minDimensions.ratio =
-  //   dimensions.minDimensions.height / dimensions.minDimensions.width
-
-  // console.log(dimensions)
-
   return (
     <>
       <img
@@ -189,6 +154,7 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
         sizes={`${dimensions.output.width}px`}
         width={dimensions.output.width}
         height={dimensions.output.height}
+        alt={item.description}
       />
     </>
   )
