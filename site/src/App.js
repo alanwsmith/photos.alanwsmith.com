@@ -24,13 +24,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>alan w. smith</h1>
+        <p>alan w. smith</p>
       </header>
       <main>
         <div id="scroll_wrapper">
-          <div>
-            {width} - {height}
-          </div>
           <InfiniteScroll
             dataLength={items.length}
             next={fetchData}
