@@ -69,7 +69,7 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
     dimensions.spacing = 3
   } else if (
     dimensions.viewport.height > 380 &&
-    dimensions.viewport.width > 480
+    dimensions.viewport.width > 500
   ) {
     dimensions.spacing = 2
   } else if (

@@ -162,6 +162,7 @@ async function runIt() {
   )
 
   for (let file_details of file_list) {
+    console.log(`Processing: ${file_details.full_path}`)
     file_details.url_root_sub_dirs = config.dest_sub_dirs
     file_details = set_dest_dir(local_dest_root, file_details)
     file_details = set_dest_base_path(file_details)
@@ -183,7 +184,7 @@ async function runIt() {
       json_details.original_width = file_details.original_width
       json_details.original_height = file_details.original_height
       // console.log(file_details)
-      console.log(json_details)
+      // console.log(json_details)
       write_json_file(file_details.dest_json_path, json_details)
     }
   }
