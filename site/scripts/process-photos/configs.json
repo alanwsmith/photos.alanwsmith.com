@@ -3,6 +3,7 @@
     "source_root": "/Users/alan/Photos/web-exports",
     "local_site_root": "/Users/alan/workshop/photos.alanwsmith.com/site/public",
     "dest_sub_dirs": ["collection-images"],
+    "json_output_dir": "/Users/alan/workshop/photos.alanwsmith.com/site/photo-jsons",
     "base_width": 1000,
     "sizes": [
       250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2500, 3000, 3500, 4000
