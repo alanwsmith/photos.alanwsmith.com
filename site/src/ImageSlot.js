@@ -20,7 +20,7 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
 
   const spacings = [
     {
-      width: 10,
+      width: 0,
       height: 10,
       paddingSides: 2,
       paddingTop: 2,
@@ -31,14 +31,14 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
       color: 'white',
     },
     {
-      width: 24,
-      height: 24,
+      width: 0,
+      height: 20,
       paddingSides: 3,
       paddingTop: 3,
       paddingBottom: 3,
-      borderSides: 8,
-      borderTop: 8,
-      borderBottom: 26,
+      borderSides: 16,
+      borderTop: 28,
+      borderBottom: 40,
       color: 'white',
     },
     {
