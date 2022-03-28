@@ -4,70 +4,60 @@
       "sizes": [
         {
           "width": 250,
-          "height": 154,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/250x154.jpg"
+          "height": 294,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/250x294.jpg"
         },
         {
           "width": 500,
-          "height": 309,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/500x309.jpg"
+          "height": 588,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/500x588.jpg"
         },
         {
           "width": 750,
-          "height": 464,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/750x464.jpg"
+          "height": 882,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/750x882.jpg"
         },
         {
           "width": 1000,
-          "height": 619,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1000x619.jpg"
+          "height": 1176,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/1000x1176.jpg"
         },
         {
           "width": 1250,
-          "height": 774,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1250x774.jpg"
+          "height": 1470,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/1250x1470.jpg"
         },
         {
           "width": 1500,
-          "height": 929,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1500x929.jpg"
+          "height": 1764,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/1500x1764.jpg"
         },
         {
           "width": 1750,
-          "height": 1084,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1750x1084.jpg"
+          "height": 2058,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/1750x2058.jpg"
         },
         {
           "width": 2000,
-          "height": 1239,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/2000x1239.jpg"
+          "height": 2352,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/2000x2352.jpg"
         },
         {
           "width": 2500,
-          "height": 1549,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/2500x1549.jpg"
+          "height": 2940,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/2500x2940.jpg"
         },
         {
           "width": 3000,
-          "height": 1859,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/3000x1859.jpg"
-        },
-        {
-          "width": 3500,
-          "height": 2169,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/3500x2169.jpg"
-        },
-        {
-          "width": 4000,
-          "height": 2479,
-          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/4000x2479.jpg"
+          "height": 3528,
+          "url_dest_path": "/collection-images/aws-2022-0317-1945-0036/3000x3528.jpg"
         }
       ],
-      "description": "A black and white photo of a beach. The horizon line is at the top third of the image. The sky is mostly cloudy. Waves are low with the tide's edge at the lower third of the image.",
-      "image_ratio": 0.619955349476215,
-      "original_width": 5823,
-      "original_height": 3610,
-      "srcset": "/collection-images/aws-2022-0315-1507-0001/250x154.jpg 250w, /collection-images/aws-2022-0315-1507-0001/500x309.jpg 500w, /collection-images/aws-2022-0315-1507-0001/750x464.jpg 750w, /collection-images/aws-2022-0315-1507-0001/1000x619.jpg 1000w, /collection-images/aws-2022-0315-1507-0001/1250x774.jpg 1250w, /collection-images/aws-2022-0315-1507-0001/1500x929.jpg 1500w, /collection-images/aws-2022-0315-1507-0001/1750x1084.jpg 1750w, /collection-images/aws-2022-0315-1507-0001/2000x1239.jpg 2000w, /collection-images/aws-2022-0315-1507-0001/2500x1549.jpg 2500w, /collection-images/aws-2022-0315-1507-0001/3000x1859.jpg 3000w, /collection-images/aws-2022-0315-1507-0001/3500x2169.jpg 3500w, /collection-images/aws-2022-0315-1507-0001/4000x2479.jpg 4000w"
+      "description": "A black and white photo of a sign painting on a will with a black field that has a white outline of a duck in flight on it with its wings extened up. There's also a small arrow pointing up in the lower left corder of the black field.",
+      "image_ratio": 1.1760765550239234,
+      "original_width": 3135,
+      "original_height": 3687,
+      "srcset": "/collection-images/aws-2022-0317-1945-0036/250x294.jpg 250w, /collection-images/aws-2022-0317-1945-0036/500x588.jpg 500w, /collection-images/aws-2022-0317-1945-0036/750x882.jpg 750w, /collection-images/aws-2022-0317-1945-0036/1000x1176.jpg 1000w, /collection-images/aws-2022-0317-1945-0036/1250x1470.jpg 1250w, /collection-images/aws-2022-0317-1945-0036/1500x1764.jpg 1500w, /collection-images/aws-2022-0317-1945-0036/1750x2058.jpg 1750w, /collection-images/aws-2022-0317-1945-0036/2000x2352.jpg 2000w, /collection-images/aws-2022-0317-1945-0036/2500x2940.jpg 2500w, /collection-images/aws-2022-0317-1945-0036/3000x3528.jpg 3000w"
     },
     {
       "sizes": [
@@ -137,6 +127,75 @@
       "original_width": 4395,
       "original_height": 2397,
       "srcset": "/collection-images/aws-2022-0315-1508-0006/250x136.jpg 250w, /collection-images/aws-2022-0315-1508-0006/500x272.jpg 500w, /collection-images/aws-2022-0315-1508-0006/750x409.jpg 750w, /collection-images/aws-2022-0315-1508-0006/1000x545.jpg 1000w, /collection-images/aws-2022-0315-1508-0006/1250x681.jpg 1250w, /collection-images/aws-2022-0315-1508-0006/1500x818.jpg 1500w, /collection-images/aws-2022-0315-1508-0006/1750x954.jpg 1750w, /collection-images/aws-2022-0315-1508-0006/2000x1090.jpg 2000w, /collection-images/aws-2022-0315-1508-0006/2500x1363.jpg 2500w, /collection-images/aws-2022-0315-1508-0006/3000x1636.jpg 3000w, /collection-images/aws-2022-0315-1508-0006/3500x1908.jpg 3500w, /collection-images/aws-2022-0315-1508-0006/4000x2181.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 154,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/250x154.jpg"
+        },
+        {
+          "width": 500,
+          "height": 309,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/500x309.jpg"
+        },
+        {
+          "width": 750,
+          "height": 464,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/750x464.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 619,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1000x619.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 774,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1250x774.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 929,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1500x929.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1084,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/1750x1084.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1239,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/2000x1239.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 1549,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/2500x1549.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 1859,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/3000x1859.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 2169,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/3500x2169.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 2479,
+          "url_dest_path": "/collection-images/aws-2022-0315-1507-0001/4000x2479.jpg"
+        }
+      ],
+      "description": "A black and white photo of a beach. The horizon line is at the top third of the image. The sky is mostly cloudy. Waves are low with the tide's edge at the lower third of the image.",
+      "image_ratio": 0.619955349476215,
+      "original_width": 5823,
+      "original_height": 3610,
+      "srcset": "/collection-images/aws-2022-0315-1507-0001/250x154.jpg 250w, /collection-images/aws-2022-0315-1507-0001/500x309.jpg 500w, /collection-images/aws-2022-0315-1507-0001/750x464.jpg 750w, /collection-images/aws-2022-0315-1507-0001/1000x619.jpg 1000w, /collection-images/aws-2022-0315-1507-0001/1250x774.jpg 1250w, /collection-images/aws-2022-0315-1507-0001/1500x929.jpg 1500w, /collection-images/aws-2022-0315-1507-0001/1750x1084.jpg 1750w, /collection-images/aws-2022-0315-1507-0001/2000x1239.jpg 2000w, /collection-images/aws-2022-0315-1507-0001/2500x1549.jpg 2500w, /collection-images/aws-2022-0315-1507-0001/3000x1859.jpg 3000w, /collection-images/aws-2022-0315-1507-0001/3500x2169.jpg 3500w, /collection-images/aws-2022-0315-1507-0001/4000x2479.jpg 4000w"
     }
   ]
 }

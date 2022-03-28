@@ -25,6 +25,9 @@ for (const file of file_list) {
   } catch (err) {}
 }
 
+
+json_data.list.reverse()
+
 console.log(json_data)
 
 fs.writeFileSync(config.json_storage_path, JSON.stringify(json_data, null, 2))

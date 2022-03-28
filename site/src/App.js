@@ -1,32 +1,10 @@
 import './App.css'
 
 import InfiniteScroll from 'react-infinite-scroll-component'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import photos from './photos.json'
 import ImageSlot from './ImageSlot'
 import { useWindowSize } from 'react-use'
-
-function set_photo_sizes() {
-  const window_width = document.documentElement.clientWidth || window.innerWidth
-  const window_height =
-    document.documentElement.clientHeight || window.innerHeight
-  const window_ratio = window_height / window_width
-  console.log(window_width)
-  console.log(window_height)
-  console.log(window_ratio)
-  const max_container_width = 1200
-  for (const photo of photos.list) {
-    if (photo.image_ratio >= window_ratio) {
-      photo.height = 'aasdf'
-    } else {
-      photo.width = 'qqq'
-    }
-    photo.new_thing = 'asdf'
-    console.dir(photo)
-  }
-}
-
-// set_photo_sizes()
 
 function App() {
   const fetchData = () => {
@@ -38,7 +16,7 @@ function App() {
       setHasMore(false)
     }
   }
-  const itemsToGet = 1
+  const itemsToGet = 2
   const [hasMore, setHasMore] = useState(true)
   const [items, setItems] = useState(photos.list.slice(0, itemsToGet))
   const { width, height } = useWindowSize()

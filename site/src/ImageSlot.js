@@ -1,7 +1,4 @@
 export default function ImageSlot({ item, windowWidth, windowHeight }) {
-  console.log(document.documentElement.clientWidth)
-  console.log(document.documentElement.clientHeight)
-
   const dimensions = {
     image: {
       ratio: item.image_ratio,
@@ -15,71 +12,97 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
     output: {},
     padding: {},
     border: {},
+    spacing: 0,
   }
 
-  // Adjust the size down based on how big the window is:
-  if (dimensions.viewport.width > 1400) {
-    dimensions.viewport.width = dimensions.viewport.width - 280
-    dimensions.padding.sides = 9
-    dimensions.padding.top = 9
-    dimensions.padding.bottom = 9
-    dimensions.border.sides = 100
-    dimensions.border.top = 100
-    dimensions.border.bottom = 130
-  } else if (dimensions.viewport.width > 1000) {
-    dimensions.viewport.width = dimensions.viewport.width - 252
-    dimensions.padding.sides = 8
-    dimensions.padding.top = 8
-    dimensions.padding.bottom = 8
-    dimensions.border.sides = 90
-    dimensions.border.top = 90
-    dimensions.border.bottom = 118
-  } else if (dimensions.viewport.width > 850) {
-    dimensions.viewport.width = dimensions.viewport.width - 178
-    dimensions.padding.sides = 6
-    dimensions.padding.top = 6
-    dimensions.padding.bottom = 6
-    dimensions.border.sides = 68
-    dimensions.border.top = 68
-    dimensions.border.bottom = 98
-  } else if (dimensions.viewport.width > 740) {
-    dimensions.viewport.width = dimensions.viewport.width - 90
-    dimensions.padding.sides = 4
-    dimensions.padding.top = 4
-    dimensions.padding.bottom = 4
-    dimensions.border.sides = 26
-    dimensions.border.top = 26
-    dimensions.border.bottom = 70
-  } else if (dimensions.viewport.width > 580) {
-    dimensions.viewport.width = dimensions.viewport.width - 80
-    dimensions.padding.sides = 4
-    dimensions.padding.top = 4
-    dimensions.padding.bottom = 4
-    dimensions.border.sides = 20
-    dimensions.border.top = 20
-    dimensions.border.bottom = 60
-  } else {
-    dimensions.viewport.width = dimensions.viewport.width - 70
-    dimensions.padding.sides = 3
-    dimensions.padding.top = 3
-    dimensions.padding.bottom = 3
-    dimensions.border.sides = 14
-    dimensions.border.top = 14
-    dimensions.border.bottom = 46
-  }
+  const settings = [
+    {
+      padding: { top: 0, sides: 0, bottom: 0 },
+      border: { top: 0, sides: 0, bottom: 0 },
+    },
+    {
+      padding: { top: 2, sides: 2, bottom: 2 },
+      border: { top: 10, sides: 10, bottom: 10 },
+    },
+    {
+      padding: { top: 20, sides: 20, bottom: 20 },
+      border: { top: 20, sides: 20, bottom: 20 },
+    },
+  ]
 
-  // reduce viewport height a little for padding if it's what hits
-  dimensions.viewport.height = dimensions.viewport.height - 60
+  let output_setting = 0
 
   dimensions.viewport.ratio =
     dimensions.viewport.height / dimensions.viewport.width
+
+  const spacings = [
+    {
+      width: 10,
+      height: 10,
+      paddingSides: 2,
+      paddingTop: 2,
+      paddingBottom: 2,
+      borderSides: 10,
+      borderTop: 10,
+      borderBottom: 10,
+      color: 'white',
+    },
+    {
+      width: 24,
+      height: 24,
+      paddingSides: 3,
+      paddingTop: 3,
+      paddingBottom: 3,
+      borderSides: 8,
+      borderTop: 8,
+      borderBottom: 26,
+      color: 'white',
+    },
+    {
+      width: 30,
+      height: 30,
+      paddingSides: 4,
+      paddingTop: 4,
+      paddingBottom: 4,
+      borderSides: 30,
+      borderTop: 30,
+      borderBottom: 50,
+      color: 'white',
+    },
+    {
+      width: 30,
+      height: 30,
+      paddingSides: 4,
+      paddingTop: 4,
+      paddingBottom: 4,
+      borderSides: 62,
+      borderTop: 62,
+      borderBottom: 70,
+      color: 'white',
+    },
+  ]
+
+  if (dimensions.viewport.height > 500 && dimensions.viewport.width > 860) {
+    dimensions.spacing = 3
+  } else if (
+    dimensions.viewport.height > 380 &&
+    dimensions.viewport.width > 480
+  ) {
+    dimensions.spacing = 2
+  } else if (
+    dimensions.viewport.height > 180 &&
+    dimensions.viewport.width > 180
+  ) {
+    dimensions.spacing = 1
+  }
 
   if (dimensions.image.ratio >= dimensions.viewport.ratio) {
     dimensions.type = 'image over viewport'
     dimensions.output.height = Math.min(
       dimensions.image.height,
-      dimensions.viewport.height
+      dimensions.viewport.height - spacings[dimensions.spacing].height
     )
+
     dimensions.output.width = Math.floor(
       (dimensions.image.width / dimensions.image.height) *
         dimensions.output.height
@@ -88,28 +111,79 @@ export default function ImageSlot({ item, windowWidth, windowHeight }) {
     dimensions.type = 'viewport over image'
     dimensions.output.width = Math.min(
       dimensions.image.width,
-      dimensions.viewport.width
+      dimensions.viewport.width - spacings[dimensions.spacing].width
     )
     dimensions.output.height = Math.floor(
       dimensions.output.width * dimensions.image.ratio
     )
   }
 
-  console.dir(dimensions)
+  // adjust the width based off the spacing settings
+  dimensions.output.width =
+    dimensions.output.width -
+    spacings[dimensions.spacing].paddingSides * 2 -
+    spacings[dimensions.spacing].borderSides * 2
+
+  dimensions.output.height = Math.floor(
+    dimensions.output.width * dimensions.image.ratio
+  )
+
+  // adjust height down if necessary
+  const test_height =
+    dimensions.viewport.height -
+    spacings[dimensions.spacing].height -
+    spacings[dimensions.spacing].paddingTop -
+    spacings[dimensions.spacing].paddingBottom -
+    spacings[dimensions.spacing].borderTop -
+    spacings[dimensions.spacing].borderBottom
+
+  if (dimensions.output.height > test_height) {
+    dimensions.output.height = test_height
+    dimensions.output.width = Math.floor(
+      (dimensions.image.width / dimensions.image.height) *
+        dimensions.output.height
+    )
+  }
+
+  // // adjust height down if necessary
+  // if (dimensions.output.height > dimensions.viewport.height - 40) {
+  //   dimensions.output.height = dimensions.output.height - 40
+  //   dimensions.output.width = Math.floor(
+  //     (dimensions.image.width / dimensions.image.height) *
+  //       dimensions.output.height
+  //   )
+  // }
+
+  // dimensions.minDimensions = {
+  //   width: Math.min(dimensions.viewport.width - 40, dimensions.output.width),
+  //   height: Math.min(dimensions.viewport.height - 40, dimensions.output.height),
+  // }
+  // dimensions.minDimensions.ratio =
+  //   dimensions.minDimensions.height / dimensions.minDimensions.width
+
+  // console.log(dimensions)
 
   return (
     <>
       <img
         style={{
           backgroundColor: 'black',
-          paddingLeft: `${dimensions.padding.sides}px`,
-          paddingRight: `${dimensions.padding.sides}px`,
-          paddingTop: `${dimensions.padding.top}px`,
-          paddingBottom: `${dimensions.padding.bottom}px`,
-          borderTop: `${dimensions.border.top}px solid white`,
-          borderBottom: `${dimensions.border.bottom}px solid white`,
-          borderLeft: `${dimensions.border.sides}px solid white`,
-          borderRight: `${dimensions.border.sides}px solid white`,
+          paddingLeft: `${spacings[dimensions.spacing].paddingSides}px`,
+          paddingRight: `${spacings[dimensions.spacing].paddingSides}px`,
+          paddingTop: `${spacings[dimensions.spacing].paddingTop}px`,
+          paddingBottom: `${spacings[dimensions.spacing].paddingBottom}px`,
+          borderTop: `${spacings[dimensions.spacing].borderTop}px solid ${
+            spacings[dimensions.spacing].color
+          }`,
+          borderBottom: `${spacings[dimensions.spacing].borderBottom}px solid ${
+            spacings[dimensions.spacing].color
+          }`,
+          borderLeft: `${spacings[dimensions.spacing].borderSides}px solid ${
+            spacings[dimensions.spacing].color
+          }`,
+          borderRight: `${spacings[dimensions.spacing].borderSides}px solid ${
+            spacings[dimensions.spacing].color
+          }`,
         }}
         srcSet={item.srcset}
         sizes={`${dimensions.output.width}px`}
