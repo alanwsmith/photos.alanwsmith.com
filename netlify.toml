@@ -1,0 +1,7 @@
+[build]
+  base = "/site/"
+  publish = "build"
+  command = "npm run build"
+
+
+
