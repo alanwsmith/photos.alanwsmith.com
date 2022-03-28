@@ -180,6 +180,8 @@ async function runIt() {
         json_details.sizes.push(size)
       }
       json_details.image_ratio = file_details.image_ratio
+      json_details.original_width = file_details.original_width
+      json_details.original_height = file_details.original_height
       // console.log(file_details)
       console.log(json_details)
       write_json_file(file_details.dest_json_path, json_details)
