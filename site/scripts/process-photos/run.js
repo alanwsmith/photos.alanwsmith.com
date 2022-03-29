@@ -18,6 +18,42 @@ const ExifReader = require('exifreader')
 // it doesn't get picked up for re-generatation
 // shouldn't be a real problem.
 
+
+//////////////////////////////////////////////////////////////
+
+async function get_description(file_details) {
+  const tags = await ExifReader.load(file_details.full_path)
+  return tags.description.description
+}
+
+//////////////////////////////////////////////////////////////
+
+function get_file_list(source_root) {
+  const file_list = []
+  for (const file_details of listDir(config.source_root)) {
+    file_list.push(file_details)
+  }
+  return file_list
+}
+
+//////////////////////////////////////////////////////////////
+
+async function get_original_dimensions(file_details) {
+  const metadata = await sharp(file_details.full_path).metadata()
+  file_details.original_width = metadata.width
+  file_details.original_height = metadata.height
+  file_details.image_ratio = metadata.height / metadata.width
+  return file_details
+}
+
+//////////////////////////////////////////////////////////////
+
+async function make_base_file(base_width, file_details) {
+  await sharp(file_details.full_path)
+    .resize(base_width, null)
+    .toFile(file_details.dest_base_path)
+}
+
 //////////////////////////////////////////////////////////////
 
 function make_directory(file_details) {
@@ -25,6 +61,14 @@ function make_directory(file_details) {
     console.log(`- Making destination dir: ${file_details.dest_dir}`)
     fs.mkdirSync(file_details.dest_dir, { recursive: true })
   }
+}
+
+//////////////////////////////////////////////////////////////
+
+async function make_file(file_details, size) {
+  await sharp(file_details.full_path)
+    .resize(size.width, size.height)
+    .toFile(size.dest_path)
 }
 
 //////////////////////////////////////////////////////////////
@@ -46,11 +90,18 @@ function set_dest_dir(dest_root, file_details) {
 
 //////////////////////////////////////////////////////////////
 
-async function get_original_dimensions(file_details) {
-  const metadata = await sharp(file_details.full_path).metadata()
-  file_details.original_width = metadata.width
-  file_details.original_height = metadata.height
-  file_details.image_ratio = metadata.height / metadata.width
+function set_dest_base_path(file_details) {
+  file_details.dest_base_path = path.join(file_details.dest_dir, 'base.jpg')
+  return file_details
+}
+
+//////////////////////////////////////////////////////////////
+
+function set_dest_json_path(file_details, json_output_dir) {
+  file_details.dest_json_path = path.join(
+    json_output_dir,
+    `${file_details.name_only_lower_case}.json`
+  )
   return file_details
 }
 
@@ -79,41 +130,6 @@ function set_dest_sizes(sizes, file_details) {
 
 //////////////////////////////////////////////////////////////
 
-function get_file_list(source_root) {
-  const file_list = []
-  for (const file_details of listDir(config.source_root)) {
-    file_list.push(file_details)
-  }
-  return file_list
-}
-
-//////////////////////////////////////////////////////////////
-
-async function make_file(file_details, size) {
-  await sharp(file_details.full_path)
-    .resize(size.width, size.height)
-    .toFile(size.dest_path)
-}
-
-//////////////////////////////////////////////////////////////
-
-function set_dest_base_path(file_details) {
-  file_details.dest_base_path = path.join(file_details.dest_dir, 'base.jpg')
-  return file_details
-}
-
-//////////////////////////////////////////////////////////////
-
-function set_dest_json_path(file_details, json_output_dir) {
-  file_details.dest_json_path = path.join(
-    json_output_dir,
-    `${file_details.name_only_lower_case}.json`
-  )
-  return file_details
-}
-
-//////////////////////////////////////////////////////////////
-
 function set_generate_files(file_details) {
   file_details.generate_files = false
   if (fs.existsSync(file_details.dest_base_path) === false) {
@@ -125,21 +141,6 @@ function set_generate_files(file_details) {
     file_details.generate_files = true
   }
   return file_details
-}
-
-//////////////////////////////////////////////////////////////
-
-async function get_description(file_details) {
-  const tags = await ExifReader.load(file_details.full_path)
-  return tags.description.description
-}
-
-//////////////////////////////////////////////////////////////
-
-async function make_base_file(base_width, file_details) {
-  await sharp(file_details.full_path)
-    .resize(base_width, null)
-    .toFile(file_details.dest_base_path)
 }
 
 //////////////////////////////////////////////////////////////
