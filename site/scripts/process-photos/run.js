@@ -18,7 +18,6 @@ const ExifReader = require('exifreader')
 // it doesn't get picked up for re-generatation
 // shouldn't be a real problem.
 
-
 //////////////////////////////////////////////////////////////
 
 async function get_description(file_details) {
@@ -34,6 +33,13 @@ function get_file_list(source_root) {
     file_list.push(file_details)
   }
   return file_list
+}
+
+//////////////////////////////////////////////////////////////
+
+async function get_ksuid(file_details) {
+  const tags = await ExifReader.load(file_details.full_path)
+  file_details.ksuid = tags.SubjectCode.description
 }
 
 //////////////////////////////////////////////////////////////
@@ -77,13 +83,13 @@ function set_dest_dir(dest_root, file_details) {
   file_details.dest_dir = path.join(
     dest_root,
     ...file_details.sub_dirs,
-    file_details.name_only
+    `${file_details.ksuid}-${file_details.name_only}`
   )
   file_details.url_dest_dir = path.join(
     '/',
     ...file_details.url_root_sub_dirs,
     ...file_details.sub_dirs,
-    file_details.name_only
+    `${file_details.ksuid}-${file_details.name_only}`
   )
   return file_details
 }
@@ -100,7 +106,7 @@ function set_dest_base_path(file_details) {
 function set_dest_json_path(file_details, json_output_dir) {
   file_details.dest_json_path = path.join(
     json_output_dir,
-    `${file_details.name_only_lower_case}.json`
+    `${file_details.ksuid}-${file_details.name_only_lower_case}.json`
   )
   return file_details
 }
@@ -164,6 +170,9 @@ async function runIt() {
 
   for (let file_details of file_list) {
     console.log(`Processing: ${file_details.full_path}`)
+    await get_ksuid(file_details)
+    console.log(file_details)
+
     file_details.url_root_sub_dirs = config.dest_sub_dirs
     file_details = set_dest_dir(local_dest_root, file_details)
     file_details = set_dest_base_path(file_details)
