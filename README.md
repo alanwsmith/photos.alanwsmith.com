@@ -6,3 +6,8 @@ Source code for photos.alanwsmith.com
   script looks for a KSUID in the IPTC
   Subject Code Field. This is used to
   sort the photos.
+
+- Using KSUID provides the ability to post
+  images from the past using their KSUID
+  creation time to keep things in posting
+  chronology
