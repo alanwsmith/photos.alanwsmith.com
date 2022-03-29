@@ -5,7 +5,7 @@
 
 const ExifReader = require('exifreader')
 
-const input_file = '/Users/alan/Photos/web-exports/aws-2022-0315-1507-0001.jpg'
+const input_file = '/Users/alan/Photos/web-exports/aws-2022-0317-1945-0036.jpg'
 
 async function runIt() {
   const tags = await ExifReader.load(input_file)
