@@ -4,6 +4,518 @@
       "sizes": [
         {
           "width": 250,
+          "height": 217,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/250x217.jpg"
+        },
+        {
+          "width": 500,
+          "height": 434,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/500x434.jpg"
+        },
+        {
+          "width": 750,
+          "height": 652,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/750x652.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 869,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1000x869.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 1087,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1250x1087.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1304,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1500x1304.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1522,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1750x1522.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1739,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/2000x1739.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 2174,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/2500x2174.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 2609,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/3000x2609.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 3044,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/3500x3044.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 3479,
+          "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/4000x3479.jpg"
+        }
+      ],
+      "description": "A black and white photo of pollen floating on the surface of water. The image is high contrast making the water black and the pollen almost totally white. There is a main branch of pollen extending from the right side of the frame and forking off light lightning to the left. In between some of the forks are swirls and bands that mimic the curvature with a larger dusted area coming in from the left. The pollen is mostly on the lower two thirds of the image with the upper third mostly the black of the water with a few ripples showing in light gray. Specs of pollen and strewn throughout the black areas like stars in the night sky.",
+      "image_ratio": 0.8698460009935419,
+      "original_width": 4026,
+      "original_height": 3502,
+      "srcset": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/250x217.jpg 250w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/500x434.jpg 500w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/750x652.jpg 750w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1000x869.jpg 1000w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1250x1087.jpg 1250w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1500x1304.jpg 1500w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/1750x1522.jpg 1750w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/2000x1739.jpg 2000w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/2500x2174.jpg 2500w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/3000x2609.jpg 3000w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/3500x3044.jpg 3500w, /collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/4000x3479.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 217,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/250x217.jpg"
+        },
+        {
+          "width": 500,
+          "height": 435,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/500x435.jpg"
+        },
+        {
+          "width": 750,
+          "height": 653,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/750x653.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 870,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1000x870.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 1088,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1250x1088.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1306,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1500x1306.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1523,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1750x1523.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1741,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/2000x1741.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 2177,
+          "url_dest_path": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/2500x2177.jpg"
+        }
+      ],
+      "description": "A black and white photo looking down on a curb stop (aka parking block) at the end of a parking space. The concrete block is in the upper third of the image extending out from the left side of the image most of the way to the right side of the frame. The block is on black asphalt which takes up the top half of the frame. The lower half of the frame is white sidewalk. The side walk has a thin, vertical expansion slot close to the left side and a thicker horizontal one that's above the lower edge of the frame at the same distance the vertical one is from the left. Two dark shadows extend from the left side of the image diagonally towards the right. The top shadow begins on the right side of the top edge. The second shadow starts a third of the way down on the left side.",
+      "image_ratio": 0.8708487084870848,
+      "original_width": 2981,
+      "original_height": 2596,
+      "srcset": "/collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/250x217.jpg 250w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/500x435.jpg 500w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/750x653.jpg 750w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1000x870.jpg 1000w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1250x1088.jpg 1250w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1500x1306.jpg 1500w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/1750x1523.jpg 1750w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/2000x1741.jpg 2000w, /collection-images/274AkxptVFG4SC5PWqptdXcxbDT-aws-2022-0322-1828-0067/2500x2177.jpg 2500w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 250,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/250x250.jpg"
+        },
+        {
+          "width": 500,
+          "height": 500,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/500x500.jpg"
+        },
+        {
+          "width": 750,
+          "height": 750,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/750x750.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 1000,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1000x1000.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 1250,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1250x1250.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1500,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1500x1500.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1750,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1750x1750.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 2000,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/2000x2000.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 2500,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/2500x2500.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 3000,
+          "url_dest_path": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/3000x3000.jpg"
+        }
+      ],
+      "description": "A black and white photo of looking down at an angle on a bench seat. The seat is made of six wood strips that are turning a corner in the frame. The strips start and end on the left side of the image with the round point of their triangle just short of the middle of the right edge of the frame. The wood in the foreground is dark. The wood at the top is almost white with the reflection of the sky above it. The background of the image is a rough sidewalk with a cross of expansion lines visible in the upper right of the image.",
+      "image_ratio": 1,
+      "original_width": 3114,
+      "original_height": 3114,
+      "srcset": "/collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/250x250.jpg 250w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/500x500.jpg 500w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/750x750.jpg 750w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1000x1000.jpg 1000w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1250x1250.jpg 1250w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1500x1500.jpg 1500w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/1750x1750.jpg 1750w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/2000x2000.jpg 2000w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/2500x2500.jpg 2500w, /collection-images/274Ak2EDu2jKtR2skQWu02G5b4n-aws-2022-0322-1826-0059/3000x3000.jpg 3000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 155,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/250x155.jpg"
+        },
+        {
+          "width": 500,
+          "height": 311,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/500x311.jpg"
+        },
+        {
+          "width": 750,
+          "height": 467,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/750x467.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 623,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1000x623.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 779,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1250x779.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 935,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1500x935.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1091,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1750x1091.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1247,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/2000x1247.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 1559,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/2500x1559.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 1871,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/3000x1871.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 2183,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/3500x2183.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 2495,
+          "url_dest_path": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/4000x2495.jpg"
+        }
+      ],
+      "description": "A black and white photo of two sections of wall that are each made up of thin, vertical strips of wood separated by dark recesses. The first wall starts on the left side of the frame and moves two thirds of the way across the frame. The curve of the way causes the gaps between the wood strips to appear thinner and thinner as it progresses. The second wall is more straight on to the camera with the space between the strips staying relatively constant. The difference in visible gaps causes the right third of the frame to be darker than the left.",
+      "image_ratio": 0.6238303181534622,
+      "original_width": 4809,
+      "original_height": 3000,
+      "srcset": "/collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/250x155.jpg 250w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/500x311.jpg 500w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/750x467.jpg 750w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1000x623.jpg 1000w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1250x779.jpg 1250w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1500x935.jpg 1500w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/1750x1091.jpg 1750w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/2000x1247.jpg 2000w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/2500x1559.jpg 2500w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/3000x1871.jpg 3000w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/3500x2183.jpg 3500w, /collection-images/274Ahze87JPxbDZiNephkMWbLTs-aws-2022-0322-1514-0053/4000x2495.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 228,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/250x228.jpg"
+        },
+        {
+          "width": 500,
+          "height": 457,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/500x457.jpg"
+        },
+        {
+          "width": 750,
+          "height": 686,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/750x686.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 914,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1000x914.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 1143,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1250x1143.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1372,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1500x1372.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1601,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1750x1601.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1829,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/2000x1829.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 2287,
+          "url_dest_path": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/2500x2287.jpg"
+        }
+      ],
+      "description": "A black and white photo of a set of stairs moving up and to the right. There's a dark ceiling behind the opening of the stairs which white ceiling sourround it on the lower level.",
+      "image_ratio": 0.9148936170212766,
+      "original_width": 2961,
+      "original_height": 2709,
+      "srcset": "/collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/250x228.jpg 250w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/500x457.jpg 500w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/750x686.jpg 750w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1000x914.jpg 1000w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1250x1143.jpg 1250w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1500x1372.jpg 1500w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/1750x1601.jpg 1750w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/2000x1829.jpg 2000w, /collection-images/272RGaQjSNCs2Xi3Ni4A5jhbhgS-aws-2022-0322-1512-0050/2500x2287.jpg 2500w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 166,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/250x166.jpg"
+        },
+        {
+          "width": 500,
+          "height": 333,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/500x333.jpg"
+        },
+        {
+          "width": 750,
+          "height": 500,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/750x500.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 666,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1000x666.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 833,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1250x833.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1000,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1500x1000.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1166,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1750x1166.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1333,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/2000x1333.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 1666,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/2500x1666.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 2000,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/3000x2000.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 2333,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/3500x2333.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 2666,
+          "url_dest_path": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/4000x2666.jpg"
+        }
+      ],
+      "description": "A black and white photo of the tops of concrete stairs and the edge grip treads. There are three edge grips made of strips of black material separate by thing pieces of bright metal. The lines formed by the stairs and grips cross the frame at about 45 degrees. The concrete is mostly light gray with the exception of one band that that extends from the upper left corner down to the middle of the frame at the bottom.",
+      "image_ratio": 0.6666666666666666,
+      "original_width": 6000,
+      "original_height": 4000,
+      "srcset": "/collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/250x166.jpg 250w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/500x333.jpg 500w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/750x500.jpg 750w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1000x666.jpg 1000w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1250x833.jpg 1250w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1500x1000.jpg 1500w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/1750x1166.jpg 1750w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/2000x1333.jpg 2000w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/2500x1666.jpg 2500w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/3000x2000.jpg 3000w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/3500x2333.jpg 3500w, /collection-images/272RFs8391DzYH3ief4RRIQGueF-aws-2022-0322-1510-0046/4000x2666.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 159,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/250x159.jpg"
+        },
+        {
+          "width": 500,
+          "height": 319,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/500x319.jpg"
+        },
+        {
+          "width": 750,
+          "height": 479,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/750x479.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 639,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1000x639.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 799,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1250x799.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 958,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1500x958.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1118,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1750x1118.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1278,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/2000x1278.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 1598,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/2500x1598.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 1917,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/3000x1917.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 2237,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/3500x2237.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 2556,
+          "url_dest_path": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/4000x2556.jpg"
+        }
+      ],
+      "description": "A black and white photo of an empty parking lot. A white line starting toward the lower right of the image moves up and across the frame to the middle of the left side. The majority of the image is taken up by the dark asphalt forming the parking spaces made by the two white lines extending perpendicular to the first line. A second set of parking space lines are at the very top of the frame with a soft focus due to being outside the primary depth of field.",
+      "image_ratio": 0.6392045454545454,
+      "original_width": 5280,
+      "original_height": 3375,
+      "srcset": "/collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/250x159.jpg 250w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/500x319.jpg 500w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/750x479.jpg 750w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1000x639.jpg 1000w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1250x799.jpg 1250w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1500x958.jpg 1500w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/1750x1118.jpg 1750w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/2000x1278.jpg 2000w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/2500x1598.jpg 2500w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/3000x1917.jpg 3000w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/3500x2237.jpg 3500w, /collection-images/272RF6Oeh62r3IJ16yTsIWcIq8N-aws-2022-0317-1950-0044/4000x2556.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 167,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/250x167.jpg"
+        },
+        {
+          "width": 500,
+          "height": 334,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/500x334.jpg"
+        },
+        {
+          "width": 750,
+          "height": 502,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/750x502.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 669,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1000x669.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 837,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1250x837.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1004,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1500x1004.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1172,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1750x1172.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1339,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/2000x1339.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 1674,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/2500x1674.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 2009,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/3000x2009.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 2344,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/3500x2344.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 2678,
+          "url_dest_path": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/4000x2678.jpg"
+        }
+      ],
+      "description": "A black and white photo of the ceiling of a building. The ceiling is made from dark wood planks. A balcony extends out half way in the from staring from the upper left and rounding back to the lower left to form a triangle with it's white surface. A similar triangle is formed by a white ceiling recess starting in the middle top of the image extending half way down the frame before turning back toward the upper right portion of the frame. The shape of the two white areas forms an outline of the ceiling in the shape of an arrow pointing to the lower right corner of the image.",
+      "image_ratio": 0.6697229419972095,
+      "original_width": 5017,
+      "original_height": 3360,
+      "srcset": "/collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/250x167.jpg 250w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/500x334.jpg 500w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/750x502.jpg 750w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1000x669.jpg 1000w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1250x837.jpg 1250w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1500x1004.jpg 1500w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/1750x1172.jpg 1750w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/2000x1339.jpg 2000w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/2500x1674.jpg 2500w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/3000x2009.jpg 3000w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/3500x2344.jpg 3500w, /collection-images/272REOW9BsGv7ueSO8E1sg34vUs-aws-2022-0317-1947-0040/4000x2678.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
           "height": 294,
           "url_dest_path": "/collection-images/272RDXCsymWFgIkOEyopfJfqyqc-aws-2022-0317-1945-0036/250x294.jpg"
         },
