@@ -25,7 +25,12 @@ function App() {
   return (
     <div className="App">
       <header>
-        <p>alan w. smith</p>
+        <h3>alan w. smith</h3>
+        <p>
+          Welcome to my photo site. I&apos;m just getting it started. Nothing
+          more than a single page to scroll with a few images right now.
+          We&apos;ll see what it becomes.{' '}
+        </p>
       </header>
       <main>
         <div id="scroll_wrapper">
