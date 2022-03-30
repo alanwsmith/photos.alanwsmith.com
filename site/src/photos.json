@@ -4,6 +4,134 @@
       "sizes": [
         {
           "width": 250,
+          "height": 250,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/250x250.jpg"
+        },
+        {
+          "width": 500,
+          "height": 500,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/500x500.jpg"
+        },
+        {
+          "width": 750,
+          "height": 750,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/750x750.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 1000,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1000x1000.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 1250,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1250x1250.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1500,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1500x1500.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1750,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1750x1750.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 2000,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/2000x2000.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 2500,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/2500x2500.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 3000,
+          "url_dest_path": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/3000x3000.jpg"
+        }
+      ],
+      "description": "A black and white photo looking down at an angle on a surface of water. The water takes up the entire frame. The lower portion of the frame from the left edge to the right is pure black and the upper portion is pure white from the reflection of a clear sky. The majority of the image is take up with small ripples in the water. They barely reflect the sky towards the bottom and increase until they become completely washed out at the top. The overall effect is one of a gradient transitioning between black and white.",
+      "image_ratio": 1,
+      "original_width": 3400,
+      "original_height": 3400,
+      "srcset": "/collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/250x250.jpg 250w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/500x500.jpg 500w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/750x750.jpg 750w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1000x1000.jpg 1000w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1250x1250.jpg 1250w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1500x1500.jpg 1500w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/1750x1750.jpg 1750w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/2000x2000.jpg 2000w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/2500x2500.jpg 2500w, /collection-images/277YBVJpFDwyXlD4002cKQlEJlO-aws-2022-0322-1826-0063/3000x3000.jpg 3000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
+          "height": 198,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/250x198.jpg"
+        },
+        {
+          "width": 500,
+          "height": 397,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/500x397.jpg"
+        },
+        {
+          "width": 750,
+          "height": 596,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/750x596.jpg"
+        },
+        {
+          "width": 1000,
+          "height": 795,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1000x795.jpg"
+        },
+        {
+          "width": 1250,
+          "height": 993,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1250x993.jpg"
+        },
+        {
+          "width": 1500,
+          "height": 1192,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1500x1192.jpg"
+        },
+        {
+          "width": 1750,
+          "height": 1391,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1750x1391.jpg"
+        },
+        {
+          "width": 2000,
+          "height": 1590,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/2000x1590.jpg"
+        },
+        {
+          "width": 2500,
+          "height": 1987,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/2500x1987.jpg"
+        },
+        {
+          "width": 3000,
+          "height": 2385,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/3000x2385.jpg"
+        },
+        {
+          "width": 3500,
+          "height": 2783,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/3500x2783.jpg"
+        },
+        {
+          "width": 4000,
+          "height": 3180,
+          "url_dest_path": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/4000x3180.jpg"
+        }
+      ],
+      "description": "A black and white photo looking down at an angle on a gumball machine. The glass sphere of the machine starts at the upper corners of the frame and curves in and down to just below the middle of the frame. It contains a full assortment of gumballs ranging in shades from black to white. The reflection of a window shows in the glass at the top toward the left side. A logo with a crown and the words \"DUBBLE BUBBLE\" in all caps is visible on a few of the gumballs including the one most prominent in the center of the collection. Below the glass sphere is the coin mechanism. It's a dark shade that tapers in slightly and it descends below the glass sphere. A black circle with white text of the number twenty-five is in the middle of the coin mechanism stand. It's slightly out of focus due to the depth of field. Below it is the hand knob for turning a coin into the machine to get a gumball.",
+      "image_ratio": 0.7951880307319046,
+      "original_width": 4946,
+      "original_height": 3933,
+      "srcset": "/collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/250x198.jpg 250w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/500x397.jpg 500w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/750x596.jpg 750w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1000x795.jpg 1000w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1250x993.jpg 1250w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1500x1192.jpg 1500w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/1750x1391.jpg 1750w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/2000x1590.jpg 2000w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/2500x1987.jpg 2500w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/3000x2385.jpg 3000w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/3500x2783.jpg 3500w, /collection-images/277AsqTdC5BZ5iqLM1ik1EhMtxG-aws-2022-0330-1237-0099/4000x3180.jpg 4000w"
+    },
+    {
+      "sizes": [
+        {
+          "width": 250,
           "height": 217,
           "url_dest_path": "/collection-images/274Alwc8KCsXp9BQnyYCMSDxN2j-aws-2022-0325-0950-0073/250x217.jpg"
         },
